@@ -1,0 +1,9 @@
+1. Selected Mobile phone details display properly
+2. Selected notebook/laptop details display properly
+3. Selected Monitor screen details display properly
+4. User logs in to the app
+5. Only users with valid credentials can log in
+6. User can successfully log in and out of the application.
+7. Logged in user purchases a mobile phone
+8. Selecing 'About us' menu heading will display the 'About us' video.
+9. If a user tries to sign up with an already existing name, then the user will see a 'User already exists' message.

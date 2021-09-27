@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://www.demoblaze.com",
+    "apiUrl": "https://api.demoblaze.com",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "retries": {
+      "runMode": 2,
+      "openMode": 1
+    },
+    "chromeWebSecurity": false
+  }
+  
