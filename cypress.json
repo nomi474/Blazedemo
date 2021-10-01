@@ -1,6 +1,12 @@
 {
     "baseUrl": "https://www.demoblaze.com",
     "apiUrl": "https://api.demoblaze.com",
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+      "reportDir": "cypress/report",
+      "charts": true,
+      "reportPageTitle": "Blazedemo"
+    },
     "viewportWidth": 1440,
     "viewportHeight": 900,
     "retries": {

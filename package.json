@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:run": "npx cypress run",
+    "cy:open": "npx cypress open"
   },
   "author": "Nauman Sheikh",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.4.1"
+    "cypress": "^8.4.1",
+    "cypress-mochawesome-reporter": "^2.3.0"
   }
 }

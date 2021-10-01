@@ -9,7 +9,6 @@ context('User logs in to the app.', () => {
     it('User clicks on About us menu item', () => {
       cy.visit("/")
       homePage.clickAboutUsMenuItem()
-      
     })
   
     it('Verify about us video exists', () => {
