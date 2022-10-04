@@ -10,7 +10,22 @@ const locators = {
     loginLink:()=>cy.get('#login2'),
     signupLink:()=> cy.qaTag("#signInModal"),
     logoutLInk:()=> cy.get('#logout2'),
+    phonesCategoryLink:()=> cy.get('[onclick="byCat(\'phone\')"]'),
+    laptopsCategoryLink:()=> cy.get('[onclick="byCat(\'notebook\')"]'),
+    monitorsCategoryLink:()=> cy.get('[onclick="byCat(\'monitor\')"]'),
 };
+
+export function clickPhonesCategoryItem(){
+    locators.phonesCategoryLink().click();
+}
+
+export function clickLaptopssCategoryItem(){
+    locators.laptopsCategoryLink().click();
+}
+
+export function clickMonitorsCategoryItem(){
+    locators.monitorsCategoryLink().click();
+}
 
 export function clickLoginMenuItem(){
     locators.loginLink().should("be.visible")
